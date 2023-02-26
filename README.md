@@ -1,4 +1,4 @@
-# wirefrme
+# wireframe
 
 以下の Hotwire のチュートリアル用のリポジトリです.
 
