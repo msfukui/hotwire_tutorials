@@ -5,5 +5,5 @@ require 'bundler/setup'
 require 'sinatra'
 
 get '/' do
-  'sinatra says helo!'
+  send_file 'views/index.html'
 end
