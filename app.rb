@@ -7,3 +7,7 @@ require 'sinatra'
 get '/' do
   send_file 'views/index.html'
 end
+
+post '/subscribe' do
+  erb :greet
+end
