@@ -1,7 +1,17 @@
+<turbo-stream action="replace" target="name">
+  <template>
+    <input type="text" name="name" id="name" placeholder="Enter your name" />
+  </template>
+</turbo-stream>
+<turbo-stream action="replace" target="email">
+  <template>
+    <input type="email" name="email" id="email" placeholder="Enter your email" />
+  </template>
+</turbo-stream>
 <turbo-stream action="replace" target="subscriber-count">
   <template>
     <p id="subscriber-count" style="padding: 1em; background-color: lightyellow; text-align: center;">
-      You have <%= rand(100) %> subscribers.
+    You have <%= rand(100) %> subscribers.
     </p>
   </template>
 </turbo-stream>
