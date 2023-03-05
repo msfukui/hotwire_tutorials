@@ -9,5 +9,6 @@ get '/' do
 end
 
 post '/subscribe' do
-  erb :greet
+  response.headers['Content-Type'] = 'text/vnd.turbo-stream.html; charset=utf-8'
+  erb :subscribe
 end
